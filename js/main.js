@@ -14,7 +14,7 @@ bubbleItems.forEach(bubble => {
 });
 
 gsap.to(".best-menu__box.box-1",{
-    y:-300,
+    y:0,
     opacity:1,
     scrollTrigger:{
         trigger:".best-menu__box.box-1",
@@ -24,7 +24,7 @@ gsap.to(".best-menu__box.box-1",{
     },
 });
 gsap.to(".best-menu__box.box-2",{
-    y:-300,
+    y:0,
     opacity:1,
     scrollTrigger:{
         trigger:".best-menu__box.box-2",
@@ -34,7 +34,7 @@ gsap.to(".best-menu__box.box-2",{
     },
 });
 gsap.to(".best-menu__box.box-3",{
-    y:-300,
+    y:0,
     opacity:1,
     scrollTrigger:{
         trigger:".best-menu__box.box-3",
@@ -58,11 +58,11 @@ valueItems.forEach(valueItem => {
 });
 
 gsap.to(".ingredient__list",{
-    xPercent:-50,
+    xPercent:-100,
     ease:"none",
     scrollTrigger:{
         trigger:".ingredient__section",
-        start:"0% 0%",
+        start:"30% 30%",
         end:"+=150%",
         pin:".ingredient__section",
         scrub:1,
